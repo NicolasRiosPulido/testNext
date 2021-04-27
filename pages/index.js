@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export const getStaticProps = async (context) => {
@@ -29,12 +28,6 @@ export default function Home(props) {
         <link rel="amphtml" href="/amp" />
       </Head>
       <main className={styles.main}>
-        <Image
-          src="/images/180.png"
-          height={144}
-          width={144}
-          alt="Your Name"
-        />
         <h1>Otto.com</h1>
         <Link href="/test_page">
           <a>test link next.js</a>
